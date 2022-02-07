@@ -1,0 +1,91 @@
+/* Utilities */
+.container-home {
+  margin: 50px 50px;
+  width: 100%;
+}
+
+.main-heading1 {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+/* Homepage */
+
+.top-buttons {
+  display: flex;
+  margin-bottom: 50px;
+  justify-content: center;
+}
+
+.top-buttons > button:nth-child(2),
+.top-buttons > button:nth-child(3),
+.top-buttons > button:nth-child(4) {
+  margin-left: 25px;
+}
+
+.button-design {
+  background-color: #4e73df;
+  border-radius: 4px;
+  padding: 15px 20px;
+  width: 200px;
+  border: none;
+  color: black;
+  text-align: center;
+  font-size: 15px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.button-design > span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button-design > span:after {
+  content: '\00bb';
+  font-size: 20px;
+  position: absolute;
+  opacity: 0;
+  top: -5px;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button-design:hover span {
+  padding-right: 25px;
+}
+
+.button-design:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.button-design1 {
+  background-color: #4e73df;
+  border-radius: 4px;
+  padding: 10px 15px;
+  border: none;
+  color: black;
+  text-align: center;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.button-design1:hover {
+  background-color: #7cb9e8;
+}
+
+/* Addstudent */
+.add-form {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.add-form input {
+  width: 400px;
+}
